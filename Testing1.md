@@ -1,8 +1,7 @@
 ## Problem
 You have a list of numbers, and you want to select some of them in a way that their total sum comes as close as possible to a target number.
-``
+```
     import random
-    
     def find_closest_subset(numbers, target):
         current_sum = 0
         selected_numbers = []
@@ -22,4 +21,4 @@ You have a list of numbers, and you want to select some of them in a way that th
     solution = find_closest_subset(numbers, target)
     print("Subset with sum closest to the target:", solution)
     print("Sum:", sum(solution))
-``
+```

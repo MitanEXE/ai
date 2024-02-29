@@ -1,5 +1,7 @@
 ## Problem
 You have a list of numbers, and you want to select some of them in a way that their total sum comes as close as possible to a target number.
+### Solving the Problem
+iteratively select numbers from the list such that their sum is as close as possible to the target value using the hill climbing algorithm.
 ```
     import random
     def find_closest_subset(numbers, target):

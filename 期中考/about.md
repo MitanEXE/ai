@@ -1,10 +1,12 @@
+#### Made by myself from my Last semester in Modern Programming Language
+
 ## Summary of Authentication System Code
 
 ### Overview
 
 This Python application implements an authentication system using facial recognition, speech recognition, and a graphical user interface (GUI) with Tkinter and Pygame. The application allows users to authenticate or sign up by scanning their faces and recognizing voice commands to open specific functionalities like music or video players.
 
-#### Made by myself from my Last semester in Modern Programming Language
+
 
 ### Key Components
 

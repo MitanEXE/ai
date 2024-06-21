@@ -5,9 +5,9 @@ client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
 while 1:
-    content="""
+    content = """
     I want to practice English, use English to talk to me, and correct my grammar or vocabulary mistakes.
-    """+input()
+    """ + input()
     chat_completion = client.chat.completions.create(
         messages=[
             {
@@ -18,5 +18,5 @@ while 1:
         model="llama3-8b-8192",
     )
 
-    print("Ans: ",chat_completion.choices[0].message.content)
-    print("-"*50)
+    print("Ans: ", chat_completion.choices[0].message.content)
+    print("-" * 50)
